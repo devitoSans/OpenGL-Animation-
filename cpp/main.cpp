@@ -36,7 +36,7 @@ int main() {
 	Animator standingAnimator(&standingAnimation);
 
 	//Jumping Mutant
-	filename = "mutantJumping_Run/mutantJumping_Run.dae";
+	filename = "mutantJumping/mutantJumping.dae";
 	Model jumpingModel(filename);
 	Animation jumpingAnimation(filename, &jumpingModel);
 	Animator jumpingAnimator(&jumpingAnimation);
